@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biscoito da sorte</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <!-- First screen (before opening the cookie) -->
+  <div class="container1">
+    <div class="content">
+      <section class="texts">
+        <h1>Qual é a sua sorte de hoje?</h1>
+        <p>Abra o biscoito e descubra!</p>
+      </section>
+  
+      <div class="img">
+        <img src="./images/fortune-cookie.svg" alt="Biscoito Fechado">
+      </div>
+    </div>
+  </div>
+  <!-- Second screen (after opening the cookie) -->
+  <div class="container2 hide">
+    <div class="content">
+      <section class="texts">
+        <h1>Aqui está a sua sorte de hoje: </h1>
+        <div class="luck-message">
+          <p class="message">
+            (random message)
+          </p>
+        </div>
+      </section>
+
+      <div class="img">
+        <img src="./images/biscoito-2.svg" alt="Biscoito Aberto">
+      </div>
+
+      <div class="btn">
+        <button>Abrir outro biscoito</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./src/main.js"></script>
+</body>
+</html>
